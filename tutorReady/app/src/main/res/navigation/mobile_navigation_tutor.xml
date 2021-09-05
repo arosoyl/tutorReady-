@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_tutor"
+    app:startDestination="@+id/nav_info_tutor">
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.tutorready.tutor.Home1Fragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home1"/>
+
+
+    <fragment
+        android:id="@+id/nav_fee"
+        android:name="com.example.tutorready.home.FeeFragment"
+        android:label="@string/menu_fee"
+        tools:layout="@layout/fragment_fee"/>
+
+    <fragment
+        android:id="@+id/nav_doimatkhau"
+        android:name="com.example.tutorready.tutor.DoiMatKhauFragment"
+        android:label="@string/menu_doimatkhau"
+        tools:layout="@layout/fragment_doi_mat_khau" />
+
+    <fragment
+        android:id="@+id/nav_student"
+        android:name="com.example.tutorready.tutor.StudentFragment"
+        android:label="@string/menu_student"
+        tools:layout="@layout/fragment_student" />
+
+
+    <fragment
+        android:id="@+id/nav_info_tutor"
+        android:name="com.example.tutorready.tutor.TutorInfoFragment"
+        android:label="@string/menu_info"
+        tools:layout="@layout/fragment_info_tutor"/>
+
+    <fragment
+        android:id="@+id/nav_lichday"
+        android:name="com.example.tutorready.tutor.LichDayFragment"
+        android:label="@string/menu_lichday"
+        tools:layout="@layout/fragment_lich_day" />
+
+    <fragment
+        android:id="@+id/nav_dangkyday"
+        android:name="com.example.tutorready.tutor.DangKyDayFragment"
+        android:label="@string/menu_dangkyday"
+        tools:layout="@layout/fragment_dang_ky_day" />
+
+
+
+
+
+
+</navigation>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3Fix">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="65dp"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+
+                    android:id="@+id/imageView"
+                    android:layout_width="96dip"
+                    android:layout_height="96dip"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <Button
+                    android:id="@+id/btn_avatar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="50sp"
+                    android:gravity="center"
+                    android:text="Chọn ảnh" />
+            </LinearLayout>
+
+
+
+            <EditText
+                android:id="@+id/edt_username"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:layout_marginTop="20sp"
+                android:layout_marginHorizontal="30sp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint=" Nhập tên đăng nhập"/>
+
+            <EditText
+                android:id="@+id/edt_email"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:layout_marginHorizontal="30sp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint=" Nhập email"/>
+
+            <EditText
+                android:id="@+id/edt_fullname"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+
+                android:layout_marginHorizontal="30sp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint=" Nhập tên đầy đủ"/>
+
+
+            <EditText
+                android:id="@+id/edt_phonenumber"
+                android:drawableLeft="@drawable/ic_baseline_smartphone_24"
+                android:inputType="number"
+                android:layout_marginHorizontal="30sp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint=" Nhập số điện thoại"/>
+            <EditText
+                android:id="@+id/edt_address"
+                android:drawableLeft="@drawable/ic_baseline_smartphone_24"
+                android:layout_marginHorizontal="30sp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint=" Nhập địa chỉ"/>
+
+
+            <TextView
+                android:layout_marginHorizontal="30sp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Giới tính"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroup_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:checked="true"
+                    android:id="@+id/radio_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="30sp"
+                    android:text="Nữ"
+                    />
+
+                <RadioButton
+                    android:text="Nam"
+                    android:id="@+id/radio_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginHorizontal="30sp" />
+            </RadioGroup>
+            <EditText
+                android:id="@+id/edt_birthday"
+                android:drawableLeft="@drawable/ic_baseline_smartphone_24"
+                android:inputType="date"
+
+                android:layout_marginHorizontal="30sp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint=" Nhập ngày sinh"/>
+
+            <EditText
+                android:id="@+id/edt_pass"
+                android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+                android:layout_marginHorizontal="30sp"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:hint=" Nhập mật khẩu"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/edt_repass"
+                android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+                android:layout_marginHorizontal="30sp"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:hint=" Nhập lại mật khẩu"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="20dp"
+                android:layout_marginHorizontal="30sp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Vai trò"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroup_role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:checked="true"
+                    android:id="@+id/radio_tutor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="30sp"
+                    android:text="Gia sư"
+                    />
+                <RadioButton
+                    android:text="Học sinh"
+                    android:id="@+id/radio_student"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="30sp" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:id="@+id/layout_chooseCV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+
+                    android:id="@+id/imageViewCV"
+                    android:layout_width="96dip"
+                    android:layout_height="96dip"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <Button
+                    android:id="@+id/btn_cv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="50sp"
+                    android:gravity="center"
+                    android:text="Chọn CV" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50sp"
+                android:layout_marginTop="20sp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_gravity="center"
+                    android:id="@+id/btn_signup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đăng ký" />
+
+                <Button
+                    android:layout_marginLeft="85sp"
+                    android:layout_gravity="center"
+                    android:id="@+id/btn_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Huỷ" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_nav"
+        app:itemBackground="@color/blueColor"
+        app:itemTextColor="@drawable/selecter"
+        app:itemIconTint="@drawable/selecter"
+        app:menu="@menu/menu_nav"
+        android:layout_alignParentBottom="true">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</RelativeLayout>

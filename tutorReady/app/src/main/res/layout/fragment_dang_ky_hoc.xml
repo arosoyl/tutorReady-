@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".student.DangkyHocFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whiteColor"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            >
+            <SearchView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:queryHint="Tìm kiếm lớp gia sư hoặc lớp học"
+                android:id="@+id/sv_search"
+                android:iconifiedByDefault="false"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/btn_search"
+                android:background="@drawable/botron3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tìm kiếm" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Spinner
+                android:id="@+id/subjects"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:entries="@array/Spinner_Subjects"
+                android:background="@drawable/vienden" />
+            <Spinner
+                android:id="@+id/levels"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:entries="@array/Spinner_Levels"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/vienden"/>
+            <Spinner
+                android:id="@+id/requests"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:entries="@array/Spinner_Requests"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/vienden" />
+            <Spinner
+                android:id="@+id/area"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:entries="@array/Spinner_Area"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/vienden" />
+        </LinearLayout>
+        <ListView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:id="@+id/lv_course">
+
+        </ListView>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

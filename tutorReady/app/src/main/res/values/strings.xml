@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">tutorReady</string>
+    <string name="gt"><a href="">Giới thiệu</a></string>
+    <string name="lh"><a href="">Liên hệ</a></string>
+    <string name="cs"><a href="">Chính sách bảo mật</a></string>
+    <string name="dk"><a href="">Đăng kí thuê gia sư</a></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main5">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_info">Thông tin cá nhân</string>
+    <string name="menu_home">Trang chủ</string>
+    <string name="menu_fee">Học phí</string>
+
+    <string name="menu_danhgia">Đánh giá gia sư</string>
+    <string name="menu_lichhoc">Đăng ký khoá học</string>
+    <string name="menu_khoahoc">Lớp học của tôi</string>
+
+    <string name="menu_dangkyday">Mở lớp</string>
+    <string name="menu_lophoc">Lớp học của tôi</string>
+    <string name="menu_lichday">Lịch dạy của tôi</string>
+
+    <string name="menu_thongkehocsinh">Học sinh</string>
+    <string name="menu_thongkegiasu">Gia sư</string>
+    <string name="menu_duyetyeucau">Duyệt yêu cầu</string>
+    <string name="menu_danhsachgiasu">Danh sách gia sư</string>
+    <string name="menu_danhsachlophoc">Danh sách lớp học</string>
+
+
+    <string name="menu_doimatkhau">Đổi mật khẩu</string>
+    <string name="menu_info_app">Thông tin ứng dụng</string>
+    <string name="menu_logout">Đăng xuất</string>
+    <string name="menu_student">Học sinh</string>
+
+    <string name="country_prompt">Chọn Tỉnh/Thành Phố</string>
+    <string-array name="Spinner_Subjects">
+        <item>Toán học</item>
+        <item>Vật lí</item>
+        <item>Hóa học</item>
+        <item>Sinh học </item>
+        <item>Tiếng anh</item>
+        <item>Ngữ văn</item>
+        <item>Năng khiếu</item>
+        <item>Các môn khác</item>
+    </string-array>
+    <string-array name="Spinner_numOfSession">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+
+    </string-array>
+    <string-array name="Spinner_Levels">
+        <item>Mầm non</item>
+        <item>Cấp 1</item>
+        <item>Cấp 2</item>
+        <item>Cấp 3</item>
+        <item>Người đi làm</item>
+    </string-array>
+    <string-array name="Spinner_Requests">
+        <item>Sinh viên</item>
+        <item>Giáo viên</item>
+    </string-array>
+    <string-array name="Spinner_Area">
+        <item>Cẩm Lệ</item>
+        <item>Hải Châu</item>
+        <item>Liên Chiểu</item>
+        <item>Ngũ Hành Sơn</item>
+        <item>Sơn Trà</item>
+        <item>Thanh Khê</item>
+        <item>Hoàng Sa</item>
+        <item>Hòa Vang</item>
+    </string-array>
+    <string-array name="Spinner_tieuchi_hocsinh">
+        <item>Theo môn học</item>
+        <item>Theo lớp</item>
+        <item>Theo giới tính</item>
+        <item>Theo quê quán</item>
+
+    </string-array>
+    <string-array name="Spinner_tieuchi_giasu">
+        <item>Theo môn học</item>
+        <item>Theo tuổi</item>
+        <item>Theo giới tính</item>
+        <item>Theo quê quán</item>
+
+    </string-array>
+    <string name="title_activity_main8">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="65dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".FeeActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:background="@color/blueColor"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="#050505"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:text="Bảng học phí tham khảo gia sư dạy kèm tại nhà của Trung Tâm Gia Sư"
+
+                />
+        </RelativeLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="180px">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:textColor="#050505"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Trung Tâm Gia Sư đưa ra bảng giá gia sư dạy kèm tại nhà thành phố Đà Nẵng, 1 tháng để quý Phụ Huynh/Học Viên tham khảo."/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:textColor="#050505"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="+ Đây là mức học phí cho 1 gia sư dạy kèm 1 học sinh tại nhà học sinh, mỗi buổi học chuẩn tối thiểu là 1h30p – 2h."
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:textColor="#050505"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="+ Bảng học phí trên chỉ có tính chất tham khảo, học phí sẽ tăng hoặc giảm tùy theo thời điểm và yêu cầu số môn của phụ huynh."
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:textColor="#050505"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Với phương châm đặt uy tín, chất lượng lên hàng đầu chúng tôi sẽ cố gắng tìm kiếm gia sư dạy kèm phù hợp nhất để đáp ứng nhu cầu của quý phụ huynh/học sinh cũng như giúp các bạn gia sư tìm được suất dạy tốt, mang lại thêm một nguồn thu nhập để yên tâm học tập/hỗ trợ gia đình."
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:textColor="#050505"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Bảng học phí gia sư dạy kèm tại nhà Cấp 1 (Lớp 1,2,3,4,5) môn Toán, Tiếng Việt, Tiếng Anh, Báo bài… . Cấp 2 (Lớp 6,7,8,9), Cấp 3 (Lớp 10,11,12) môn Toán, Lý, Hóa, Văn, Sinh, Tiếng Anh…"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:textColor="#E91E63"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="+ Học phí gia sư dạy 2 buổi/ tuần (1 tháng/ 8 buổi) được tính như sau:"
+                    />
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/luong1"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:textColor="#E91E63"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="+ Học phí gia sư dạy 3 buổi/ tuần (1 tháng/ 12 buổi) được tính như sau:"
+                    />
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/luong3"
+                    android:layout_marginLeft="05dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="+ Học phí gia sư dạy 5 buổi/ tuần (1 tháng/ 20 buổi) được tính như sau:"
+                    android:textColor="#E91E63"
+                    android:textSize="15sp"
+
+                    />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/luong2"
+                    android:layout_marginLeft="005dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:textColor="#E91E63"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Bảng học phí gia sư luyện thi tuyển sinh lớp 10 môn Toán, Văn, Tiếng Anh"
+                    />
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/luong1"
+                    android:layout_marginLeft="05dp"/>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_nav"
+        app:itemBackground="@color/blueColor"
+        app:itemTextColor="@drawable/selecter"
+        app:itemIconTint="@drawable/selecter"
+        app:menu="@menu/menu_nav"
+        android:layout_alignParentBottom="true">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</RelativeLayout>

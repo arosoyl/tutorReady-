@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_student"
+            android:icon="@drawable/ic_baseline_people_24"
+            android:title="@string/menu_student" />
+
+        <item
+            android:id="@+id/nav_fee"
+            android:icon="@drawable/ic_baseline_money_24"
+            android:title="@string/menu_fee" />
+        <item
+            android:id="@+id/nav_dangkyday"
+            android:icon="@drawable/ic_baseline_checklist_24"
+            android:title="@string/menu_dangkyday" />
+
+        <item
+            android:id="@+id/nav_lichday"
+            android:icon="@drawable/ic_baseline_class_24"
+            android:title="@string/menu_lichday" />
+
+        <item android:title="Tài khoản">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_info_tutor"
+                    android:icon="@drawable/ic_baseline_person_24"
+                    android:title="@string/menu_info" />
+
+                <item
+                    android:id="@+id/nav_doimatkhau"
+                    android:icon="@drawable/ic_baseline_lock_24"
+                    android:title="@string/menu_doimatkhau" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_baseline_logout_24"
+                    android:title="@string/menu_logout" />
+            </menu>
+
+        </item>
+
+    </group>
+
+
+
+</menu>

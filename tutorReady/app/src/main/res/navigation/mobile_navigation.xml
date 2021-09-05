@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.tutorready.student.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/nav_fee"
+        android:name="com.example.tutorready.home.FeeFragment"
+        android:label="@string/menu_fee"
+        tools:layout="@layout/fragment_fee"/>
+
+    <fragment
+        android:id="@+id/nav_doimatkhau"
+        android:name="com.example.tutorready.student.DoiMatKhau2Fragment"
+        android:label="@string/menu_doimatkhau"
+        tools:layout="@layout/fragment_doi_mat_khau" />
+
+    <fragment
+        android:id="@+id/nav_info_student"
+        android:name="com.example.tutorready.student.StudentInfoFragment"
+        android:label="@string/menu_info"
+        tools:layout="@layout/fragment_student_info" />
+
+    <fragment
+        android:id="@+id/nav_lichhoc"
+        android:name="com.example.tutorready.student.LichHocFragment"
+        android:label="@string/menu_lichhoc"
+        tools:layout="@layout/fragment_lich_hoc" />
+
+    <fragment
+        android:id="@+id/nav_dangkyhoc"
+        android:name="com.example.tutorready.student.DangkyHocFragment"
+        android:label="@string/menu_lichhoc"
+        tools:layout="@layout/fragment_dang_ky_hoc" />
+
+    <fragment
+        android:id="@+id/nav_danhgiagiasu"
+        android:name="com.example.tutorready.student.DanhGiaFragment"
+        android:label="@string/menu_danhgia"
+        tools:layout="@layout/fragment_danh_gia"/>
+
+</navigation>

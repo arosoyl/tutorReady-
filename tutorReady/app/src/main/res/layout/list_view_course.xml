@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Le Abc "
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:id="@+id/tv_fullName"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lớp 5"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:id="@+id/tv_grade"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Toán"
+            android:textSize="16sp"
+            android:id="@+id/tv_subject"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="T2:16h00-18h0"
+            android:textSize="16sp"
+            android:id="@+id/tv_time"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Quảng Nam"
+            android:textSize="16sp"
+            android:id="@+id/tv_address"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="Đăng kí học"
+            android:background="@color/blueColor"
+            android:id="@+id/btn_signup"
+            />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/blueColor"
+            android:text="Xem chi tiết"
+            android:id="@+id/btn_detail" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
